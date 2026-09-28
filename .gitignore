@@ -21,13 +21,11 @@ dist/
 *.egg-info/
 
 # Env
-.env
 .env*.local
 
 # OS / editor
 .DS_Store
 .idea
-.vscode/*
 !.vscode/extensions.json
 
 # Fuzzing (contracts/fuzz)
@@ -59,3 +57,7 @@ contracts/fuzz/proptests/target/
 # cargo-fuzz coverage output
 *.profraw
 *.profdata
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
